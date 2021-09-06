@@ -1,0 +1,148 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "string"
+    },
+    "initial_data": {
+      "type": "richtext"
+    },
+    "aims": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "photo1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "photo1_heading": {
+      "type": "string"
+    },
+    "photo1_subheading": {
+      "type": "text"
+    },
+    "photo2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "process1": {
+      "type": "text"
+    },
+    "process2": {
+      "type": "text"
+    },
+    "process3": {
+      "type": "text"
+    },
+    "photo3_heading": {
+      "type": "text"
+    },
+    "photo3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "result1": {
+      "type": "text"
+    },
+    "result2": {
+      "type": "text"
+    },
+    "result3": {
+      "type": "string"
+    },
+    "before_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "after_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "services": {
+      "collection": "service",
+      "via": "projects",
+      "dominant": true
+    },
+    "tools": {
+      "collection": "tool",
+      "via": "projects",
+      "dominant": true
+    },
+    "platforms": {
+      "collection": "platform",
+      "via": "projects",
+      "dominant": true
+    },
+    "main_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
