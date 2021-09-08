@@ -145,7 +145,7 @@
       "pluginOptions": {}
     },
     "slug": {
-      "type": "string"
+      "type": "uid"
     }
   }
 }
