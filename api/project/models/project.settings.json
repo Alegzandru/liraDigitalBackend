@@ -91,7 +91,7 @@
       "type": "text"
     },
     "result3": {
-      "type": "string"
+      "type": "text"
     },
     "before_photo": {
       "model": "file",
@@ -146,6 +146,87 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "name_ru": {
+      "type": "string"
+    },
+    "name_ro": {
+      "type": "string"
+    },
+    "photo1_heading_ru": {
+      "type": "string"
+    },
+    "photo1_heading_ro": {
+      "type": "string"
+    },
+    "photo1_subheading_ru": {
+      "type": "text"
+    },
+    "photo1_subheading_ro": {
+      "type": "text"
+    },
+    "process1_ru": {
+      "type": "text"
+    },
+    "process1_ro": {
+      "type": "text"
+    },
+    "process2_ru": {
+      "type": "text"
+    },
+    "process2_ro": {
+      "type": "text"
+    },
+    "process3_ru": {
+      "type": "text"
+    },
+    "process3_ro": {
+      "type": "text"
+    },
+    "photo3_heading_ru": {
+      "type": "text"
+    },
+    "photo3_heading_ro": {
+      "type": "text"
+    },
+    "result1_ru": {
+      "type": "text"
+    },
+    "result1_ro": {
+      "type": "text"
+    },
+    "result2_ru": {
+      "type": "text"
+    },
+    "result2_ro": {
+      "type": "text"
+    },
+    "result3_ru": {
+      "type": "text"
+    },
+    "result3_ro": {
+      "type": "text"
+    },
+    "initial_data_ru": {
+      "type": "richtext"
+    },
+    "initial_data_ro": {
+      "type": "richtext"
+    },
+    "aims_ru": {
+      "type": "richtext"
+    },
+    "aims_ro": {
+      "type": "richtext"
+    },
+    "description_ru": {
+      "type": "richtext"
+    },
+    "description_ro": {
+      "type": "richtext"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
