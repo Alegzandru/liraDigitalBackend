@@ -227,6 +227,12 @@
     },
     "order": {
       "type": "integer"
+    },
+    "metatitle": {
+      "type": "string"
+    },
+    "metadescription": {
+      "type": "text"
     }
   }
 }
